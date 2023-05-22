@@ -23,9 +23,9 @@ func main() {
 
 	defer db.Close()
 
-	nikita := domain.NewContact("Fedenko", "Alexey", "Demyanovich")
-	aida := domain.NewContact("Nurdaulet", "Kuatov", "Ivanovich")
+	alexey := domain.NewContact("Fedenko", "Alexey", "Demyanovich")
+	nurdaulet := domain.NewContact("Nurdaulet", "Kuatov", "Ivanovich")
 	group1 := domain.NewGroup("Students")
 
-	fmt.Println(nikita, aida, group1)
+	fmt.Println(alexey, nurdaulet, group1)
 }
